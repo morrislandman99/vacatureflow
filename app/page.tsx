@@ -3,14 +3,14 @@ import Link from 'next/link'
 import { siteConfig } from '@/lib/siteConfig'
 
 export const metadata: Metadata = {
-  title: 'Job marketing voor Nederlandse bedrijven — Meer sollicitanten, lagere kosten',
+  title: 'Recruitment marketing voor Nederlandse werkgevers — Meer sollicitanten, lagere kosten',
   description:
-    'Jobmarketing helpt Nederlandse bedrijven aan meer én betere sollicitanten via gerichte advertenties, vacatureoptimalisatie en werkgeversbranding. Transparante tarieven.',
+    'Jobmarketing helpt Nederlandse werkgevers vacatures sneller invullen via gerichte recruitment marketing, vacatureoptimalisatie en werkgeversbranding. Transparante tarieven.',
   alternates: { canonical: siteConfig.url },
   openGraph: {
     title: 'Jobmarketing — Meer sollicitanten, lagere kosten per hire',
     description:
-      'Gerichte job marketing voor Nederlandse bedrijven. Meer reacties, sneller ingevuld, lagere kosten per hire.',
+      'Recruitment marketing voor Nederlandse werkgevers. Meer reacties, sneller ingevuld, lagere kosten per hire.',
     url: siteConfig.url,
   },
 }
@@ -53,7 +53,7 @@ export default function HomePage() {
       <section className="bg-dark px-6 pb-32 pt-24">
         <div className="mx-auto max-w-4xl">
           <span className="inline-flex items-center rounded-full bg-lime/10 px-3 py-1 text-sm text-lime">
-            Job marketing voor elke werkgever
+            Recruitment marketing, zodat je vacatures eindelijk ingevuld worden
           </span>
           <h1 className="mt-6 font-display text-5xl leading-tight text-white md:text-7xl">
             De kandidaten zijn er wel.{' '}
