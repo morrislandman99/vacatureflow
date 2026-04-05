@@ -3,7 +3,7 @@ import { siteConfig } from '@/lib/siteConfig'
 
 export const metadata: Metadata = {
   title: 'Algemene voorwaarden',
-  description: 'De algemene voorwaarden van Jobmarketing.',
+  description: 'De algemene voorwaarden van Vacatureflow.',
   alternates: { canonical: `${siteConfig.url}/algemene-voorwaarden` },
   robots: { index: false, follow: false },
 }
@@ -16,20 +16,20 @@ export default function AlgemeneVoorwaardenPage() {
         <p className="mt-4 text-ink-muted text-sm">Laatste update: april 2026</p>
         <div className="mt-10 space-y-6 text-sm text-ink-muted leading-relaxed">
           <p>
-            Deze algemene voorwaarden zijn van toepassing op alle overeenkomsten tussen Jobmarketing
+            Deze algemene voorwaarden zijn van toepassing op alle overeenkomsten tussen Vacatureflow
             en haar opdrachtgevers.
           </p>
-          <h2 className="font-display text-2xl text-ink">Artikel 1 — Definities</h2>
+          <h2 className="font-display text-2xl text-ink">Artikel 1:Definities</h2>
           <p>
             Onder &ldquo;opdrachtgever&rdquo; wordt verstaan iedere natuurlijke of rechtspersoon die
-            een overeenkomst aangaat met Jobmarketing.
+            een overeenkomst aangaat met Vacatureflow.
           </p>
-          <h2 className="font-display text-2xl text-ink">Artikel 2 — Toepasselijkheid</h2>
+          <h2 className="font-display text-2xl text-ink">Artikel 2:Toepasselijkheid</h2>
           <p>
             Deze voorwaarden zijn van toepassing op alle offertes, overeenkomsten en leveringen van
-            Jobmarketing, tenzij schriftelijk anders overeengekomen.
+            Vacatureflow, tenzij schriftelijk anders overeengekomen.
           </p>
-          <h2 className="font-display text-2xl text-ink">Artikel 3 — Contact</h2>
+          <h2 className="font-display text-2xl text-ink">Artikel 3:Contact</h2>
           <p>
             Vragen over deze voorwaarden? Stuur een e-mail naar{' '}
             <a href={`mailto:${siteConfig.email}`} className="text-ink underline hover:text-ink-muted">

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { siteConfig } from '@/lib/siteConfig'
 
 export const metadata: Metadata = {
-  title: 'Blog — Inzichten over job marketing en werving',
+  title: 'Blog | Inzichten over recruitment marketing en werving',
   description:
     'Lees praktische artikelen over job marketing, vacatureoptimalisatie en werkgeversbranding voor MKB-bedrijven in Nederland.',
   alternates: { canonical: `${siteConfig.url}/blog` },

@@ -3,7 +3,7 @@ import { siteConfig } from '@/lib/siteConfig'
 
 export const metadata: Metadata = {
   title: 'Privacybeleid',
-  description: 'Lees het privacybeleid van Jobmarketing. Hoe we omgaan met jouw persoonsgegevens.',
+  description: 'Lees het privacybeleid van Vacatureflow. Hoe we omgaan met jouw persoonsgegevens.',
   alternates: { canonical: `${siteConfig.url}/privacybeleid` },
   robots: { index: false, follow: false },
 }
@@ -16,7 +16,7 @@ export default function PrivacybeleidPage() {
         <p className="mt-4 text-ink-muted text-sm">Laatste update: april 2026</p>
         <div className="mt-10 prose prose-sm max-w-none text-ink-muted leading-relaxed space-y-6">
           <p>
-            Jobmarketing (hierna: &ldquo;wij&rdquo;) verwerkt persoonsgegevens in overeenstemming
+            Vacatureflow (hierna: &ldquo;wij&rdquo;) verwerkt persoonsgegevens in overeenstemming
             met de Algemene Verordening Gegevensbescherming (AVG). Dit privacybeleid legt uit welke
             gegevens we verzamelen, waarom, en hoe we daarmee omgaan.
           </p>

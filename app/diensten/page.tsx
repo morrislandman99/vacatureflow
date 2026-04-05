@@ -4,9 +4,9 @@ import { siteConfig } from '@/lib/siteConfig'
 import { serviceSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
-  title: 'Diensten — Job marketing voor MKB',
+  title: 'Diensten | Recruitment marketing voor Nederlandse werkgevers',
   description:
-    'Ontdek hoe Jobmarketing jouw vacatures zichtbaarder maakt: vacatureoptimalisatie, gerichte advertenties en werkgeverscontent op maat.',
+    'Ontdek hoe Vacatureflow jouw vacatures zichtbaarder maakt: vacatureoptimalisatie, gerichte advertenties en werkgeverscontent op maat.',
   alternates: { canonical: `${siteConfig.url}/diensten` },
   openGraph: { url: `${siteConfig.url}/diensten` },
 }
@@ -15,7 +15,7 @@ const services = [
   {
     title: 'Vacatureoptimalisatie',
     description:
-      'De meeste vacatureteksten zijn geschreven voor de werkgever, niet voor de kandidaat. Wij herschrijven en structureren je vacatures zodat ze aansluiten op wat kandidaten zoeken — én op wat Google en AI-zoekmachines oppikken.',
+      'De meeste vacatureteksten zijn geschreven voor de werkgever, niet voor de kandidaat. Wij herschrijven en structureren je vacatures zodat ze aansluiten op wat kandidaten zoeken, en ook op wat Google en AI-zoekmachines oppikken.',
     bullets: ['SEO-geoptimaliseerde vacaturetekst', 'Kandidaatgerichte structuur', 'A/B-testen op koppen en CTA'],
   },
   {

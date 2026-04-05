@@ -22,7 +22,7 @@ export async function POST(req: Request) {
   const resend = new Resend(process.env.RESEND_API_KEY)
 
   await resend.emails.send({
-    from: 'Jobmarketing <noreply@jobmarketing.nl>',
+    from: 'Vacatureflow <noreply@vacatureflow.nl>',
     to: 'morrislandman@outlook.com',
     replyTo: email,
     subject: `Nieuw contactbericht van ${name}`,

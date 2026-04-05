@@ -3,9 +3,9 @@ import Link from 'next/link'
 import { siteConfig } from '@/lib/siteConfig'
 
 export const metadata: Metadata = {
-  title: 'Over ons — Het team achter Jobmarketing',
+  title: 'Over ons | Het team achter Vacatureflow',
   description:
-    'Jobmarketing is opgericht om MKB-bedrijven te helpen de juiste kandidaten te bereiken. Leer ons kennen en ontdek waarom wij anders werken.',
+    'Vacatureflow is opgericht om MKB-bedrijven te helpen de juiste kandidaten te bereiken. Leer ons kennen en ontdek waarom wij anders werken.',
   alternates: { canonical: `${siteConfig.url}/over-ons` },
   openGraph: { url: `${siteConfig.url}/over-ons` },
 }
@@ -22,8 +22,8 @@ export default function OverOnsPage() {
             Wij geloven dat elke vacature vindbaar moet zijn
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-white/65 leading-relaxed">
-            Jobmarketing is opgericht omdat te veel goede bedrijven hun vacatures niet gevuld
-            krijgen — niet door gebrek aan kandidaten, maar door gebrek aan zichtbaarheid.
+            Vacatureflow is opgericht omdat te veel goede bedrijven hun vacatures niet gevuld
+            krijgen. Niet door gebrek aan kandidaten, maar door gebrek aan zichtbaarheid.
           </p>
         </div>
       </section>
@@ -33,17 +33,17 @@ export default function OverOnsPage() {
           <div className="rounded-2xl bg-white border border-border p-10">
             <h2 className="font-display text-3xl text-ink">Onze missie</h2>
             <p className="mt-4 text-ink-muted leading-relaxed">
-              MKB-bedrijven verdienen dezelfde kwaliteit job marketing als grote corporates — maar
+              Bedrijven van elke omvang verdienen dezelfde kwaliteit recruitment marketing als grote corporates, maar
               dan tegen een prijs die past bij hun schaal. Wij combineren data, creativiteit en
               kanaalkennis om vacatures bij de juiste mensen te krijgen.
             </p>
           </div>
 
           <div className="rounded-2xl bg-white border border-border p-10">
-            <h2 className="font-display text-3xl text-ink">Waarom Jobmarketing?</h2>
+            <h2 className="font-display text-3xl text-ink">Waarom Vacatureflow?</h2>
             <ul className="mt-6 space-y-4">
               {[
-                'We specialiseren ons uitsluitend in job marketing — geen breed bureau, maar diepe expertise.',
+                'We specialiseren ons uitsluitend in recruitment marketing: geen breed bureau, maar diepe expertise.',
                 'We werken transparant: je ziet precies wat we doen en wat het kost.',
                 'We meten op resultaat: sollicitaties, kosten per hire, kwaliteit van kandidaten.',
                 'We denken vanuit de kandidaat, niet vanuit de werkgever.',

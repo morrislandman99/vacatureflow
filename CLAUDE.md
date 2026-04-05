@@ -128,6 +128,12 @@ Schrijf alle schema's als functies in /lib/schema.ts. Render als `<script type="
 - Named exports voor components — default exports alleen waar Next.js het verplicht
 - PascalCase voor component-bestanden, kebab-case voor routes
 
+## Schrijfstijl
+- Gebruik nooit em dashes (—) in zichtbare tekst of koppen
+- In lopende tekst: vervang door een komma, punt of dubbele punt (:)
+- In meta titles: gebruik | als scheiding (bijv. `Diensten | Recruitment marketing`)
+- In juridische koppen: gebruik : (bijv. `Artikel 1: Definities`)
+
 ## Checklist vóór commit
 - [ ] `npm run build` en `npx tsc --noEmit` slagen foutloos
 - [ ] Elke pagina heeft unieke title, description en canonical URL

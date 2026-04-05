@@ -4,9 +4,9 @@ import { siteConfig } from '@/lib/siteConfig'
 import { faqSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
-  title: 'Tarieven — Transparante prijzen voor job marketing',
+  title: 'Tarieven | Transparante prijzen voor recruitment marketing',
   description:
-    'Bekijk de tarieven van Jobmarketing. Vaste maandprijzen zonder verborgen kosten. Starter vanaf €599, Groei vanaf €1.099, of een maatwerk offerte.',
+    'Bekijk de tarieven van Vacatureflow. Vaste maandprijzen zonder verborgen kosten. Starter vanaf €599, Groei vanaf €1.099, of een maatwerk offerte.',
   alternates: { canonical: `${siteConfig.url}/tarieven` },
   openGraph: { url: `${siteConfig.url}/tarieven` },
 }

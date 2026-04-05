@@ -3,9 +3,9 @@ import Link from 'next/link'
 import { siteConfig } from '@/lib/siteConfig'
 
 export const metadata: Metadata = {
-  title: 'Hoe het werkt — Onze aanpak stap voor stap',
+  title: 'Hoe het werkt | Onze aanpak stap voor stap',
   description:
-    'Lees hoe Jobmarketing in vier stappen van intake tot resultaat werkt. Een heldere aanpak zonder verrassingen voor MKB-bedrijven.',
+    'Lees hoe Vacatureflow in vier stappen van intake tot resultaat werkt. Een heldere aanpak zonder verrassingen voor MKB-bedrijven.',
   alternates: { canonical: `${siteConfig.url}/hoe-het-werkt` },
   openGraph: { url: `${siteConfig.url}/hoe-het-werkt` },
 }
@@ -27,7 +27,7 @@ const steps = [
     num: '03',
     title: 'Uitvoering & optimalisatie',
     description:
-      'We lanceren de campagne en monitoren dagelijks. We optimaliseren continu op basis van data — klikken, sollicitaties, kosten per hire. Je ontvangt wekelijks een update.',
+      'We lanceren de campagne en monitoren dagelijks. We optimaliseren continu op basis van data: klikken, sollicitaties en kosten per hire. Je ontvangt wekelijks een update.',
   },
   {
     num: '04',

@@ -4,9 +4,9 @@ import { ContactForm } from '@/components/ContactForm'
 import { BookingEmbed } from '@/components/BookingEmbed'
 
 export const metadata: Metadata = {
-  title: 'Contact — Plan een gratis gesprek',
+  title: 'Contact | Plan een gratis gesprek',
   description:
-    'Neem contact op met Jobmarketing of plan direct een gratis gesprek van 30 minuten. We kijken samen naar jouw vacature en wervingsuitdaging.',
+    'Neem contact op met Vacatureflow of plan direct een gratis gesprek van 30 minuten. We kijken samen naar jouw vacature en wervingsuitdaging.',
   alternates: { canonical: `${siteConfig.url}/contact` },
   openGraph: { url: `${siteConfig.url}/contact` },
 }

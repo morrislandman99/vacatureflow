@@ -3,12 +3,12 @@ import Link from 'next/link'
 import { siteConfig } from '@/lib/siteConfig'
 
 export const metadata: Metadata = {
-  title: 'Recruitment marketing voor Nederlandse werkgevers — Meer sollicitanten, lagere kosten',
+  title: 'Recruitment marketing voor Nederlandse werkgevers | Meer sollicitanten, lagere kosten',
   description:
-    'Jobmarketing helpt Nederlandse werkgevers vacatures sneller invullen via gerichte recruitment marketing, vacatureoptimalisatie en werkgeversbranding. Transparante tarieven.',
+    'Vacatureflow helpt Nederlandse werkgevers vacatures sneller invullen via gerichte recruitment marketing, vacatureoptimalisatie en werkgeversbranding. Transparante tarieven.',
   alternates: { canonical: siteConfig.url },
   openGraph: {
-    title: 'Jobmarketing — Meer sollicitanten, lagere kosten per hire',
+    title: 'Vacatureflow | Meer sollicitanten, lagere kosten per hire',
     description:
       'Recruitment marketing voor Nederlandse werkgevers. Meer reacties, sneller ingevuld, lagere kosten per hire.',
     url: siteConfig.url,
@@ -16,9 +16,9 @@ export const metadata: Metadata = {
 }
 
 const stats = [
-  { label: 'Meer sollicitanten', value: '+60%' },
-  { label: 'Lagere kosten per hire', value: '−40%' },
-  { label: 'Kortere time-to-hire dan marktgemiddelde', value: '−50%' },
+  { label: 'Meer sollicitanten', sub: 'Meer bereik op de kanalen waar jouw kandidaten zijn' },
+  { label: 'Lagere kosten per hire', sub: 'Minder budget verspild aan kanalen die niet werken' },
+  { label: 'Betere kandidaatkwaliteit', sub: 'Gerichtere aanpak trekt mensen aan die echt passen' },
 ]
 
 const services = [
@@ -30,7 +30,7 @@ const services = [
   {
     title: 'Gerichte advertenties',
     description:
-      'We plaatsen je vacature precies waar jouw doelgroep is — LinkedIn, Meta, Google Jobs — met een aanpak die past bij jouw schaal en budget.',
+      'We plaatsen je vacature precies waar jouw doelgroep is: LinkedIn, Meta en Google Jobs. Met een aanpak die past bij jouw schaal en budget.',
   },
   {
     title: 'Werkgeverscontent',
@@ -78,11 +78,11 @@ export default function HomePage() {
               Hoe werkt het?
             </Link>
           </div>
-          <div className="mt-16 flex flex-wrap gap-10">
+          <div className="mt-16 grid gap-4 sm:grid-cols-3">
             {stats.map((stat) => (
-              <div key={stat.label}>
-                <p className="font-display text-3xl font-semibold text-lime">{stat.value}</p>
-                <p className="mt-1 text-sm text-white/55">{stat.label}</p>
+              <div key={stat.label} className="rounded-2xl border border-white/10 bg-white/[0.06] px-6 py-5">
+                <p className="font-display text-lg font-semibold text-lime">{stat.label}</p>
+                <p className="mt-2 text-sm text-white/55 leading-relaxed">{stat.sub}</p>
               </div>
             ))}
           </div>
