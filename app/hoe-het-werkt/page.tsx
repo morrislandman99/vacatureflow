@@ -15,7 +15,7 @@ const steps = [
     num: '01',
     title: 'Intake & analyse',
     description:
-      'We leren je bedrijf, vacature en doelgroep kennen. We kijken naar wat je nu doet, wat werkt en wat beter kan. Dit gesprek duurt 30–45 minuten en is volledig vrijblijvend.',
+      'We leren je bedrijf, vacature en doelgroep kennen. We kijken naar wat je nu doet, wat werkt en wat beter kan. Het gesprek is volledig vrijblijvend.',
   },
   {
     num: '02',
