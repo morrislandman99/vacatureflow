@@ -3,14 +3,14 @@ import Link from 'next/link'
 import { siteConfig } from '@/lib/siteConfig'
 
 export const metadata: Metadata = {
-  title: 'Job marketing voor MKB-bedrijven — Meer sollicitanten, lagere kosten',
+  title: 'Job marketing voor Nederlandse bedrijven — Meer sollicitanten, lagere kosten',
   description:
-    'Jobmarketing helpt MKB-bedrijven aan meer én betere sollicitanten via gerichte advertenties, vacatureoptimalisatie en werkgeversbranding. Transparante tarieven.',
+    'Jobmarketing helpt Nederlandse bedrijven aan meer én betere sollicitanten via gerichte advertenties, vacatureoptimalisatie en werkgeversbranding. Transparante tarieven.',
   alternates: { canonical: siteConfig.url },
   openGraph: {
     title: 'Jobmarketing — Meer sollicitanten, lagere kosten per hire',
     description:
-      'Gerichte job marketing voor MKB-bedrijven in Nederland. Meer reacties, sneller ingevuld, lagere kosten.',
+      'Gerichte job marketing voor Nederlandse bedrijven. Meer reacties, sneller ingevuld, lagere kosten per hire.',
     url: siteConfig.url,
   },
 }
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const stats = [
   { label: 'Meer sollicitanten', value: '+60%' },
   { label: 'Lagere kosten per hire', value: '−40%' },
-  { label: 'Sneller ingevuld', value: '2×' },
+  { label: 'Kortere time-to-hire dan marktgemiddelde', value: '−50%' },
 ]
 
 const services = [
@@ -30,7 +30,7 @@ const services = [
   {
     title: 'Gerichte advertenties',
     description:
-      'We plaatsen je vacature precies waar jouw doelgroep is — LinkedIn, Meta, Google Jobs — met budgetten die passen bij een MKB-bedrijf.',
+      'We plaatsen je vacature precies waar jouw doelgroep is — LinkedIn, Meta, Google Jobs — met een aanpak die past bij jouw schaal en budget.',
   },
   {
     title: 'Werkgeverscontent',
@@ -53,7 +53,7 @@ export default function HomePage() {
       <section className="bg-dark px-6 pb-32 pt-24">
         <div className="mx-auto max-w-4xl">
           <span className="inline-flex items-center rounded-full bg-lime/10 px-3 py-1 text-sm text-lime">
-            Job marketing voor MKB-bedrijven
+            Job marketing voor elke werkgever
           </span>
           <h1 className="mt-6 font-display text-5xl leading-tight text-white md:text-7xl">
             De kandidaten zijn er wel.{' '}
