@@ -1,0 +1,15 @@
+import type { MetadataRoute } from 'next'
+import { siteConfig } from '@/lib/siteConfig'
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const base = siteConfig.url
+
+  return [
+    { url: base, lastModified: new Date(), changeFrequency: 'monthly', priority: 1 },
+    { url: `${base}/diensten`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/hoe-het-werkt`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/over-ons`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/contact`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/blog`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.6 },
+  ]
+}
